@@ -18,6 +18,16 @@ requirements = [
 
 setup_requirements = [
     # TODO(titusfranz): put setup requirements (distutils extensions, etc.) here
+    pip==8.1.2
+    bumpversion==0.5.3
+    wheel==0.29.0
+    watchdog==0.8.3
+    flake8==2.6.0
+    tox==2.3.1
+    coverage==4.1
+    Sphinx==1.4.8
+    cryptography==1.7
+    PyYAML==3.11
 ]
 
 test_requirements = [
